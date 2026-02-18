@@ -1,7 +1,11 @@
 import Image from "next/image";
+import "./globals.css";
+
 
 export default function Home() {
   return (
-    <div classeName="oi"> Tu és masqueiiiccooooo </div>
+    <div>
+      <h1>  Teste  </h1>
+    </div>
   );
 }

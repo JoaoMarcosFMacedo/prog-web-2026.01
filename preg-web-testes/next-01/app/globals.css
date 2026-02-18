@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+h1{
+  color:transparent;
+  background-imag: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg");
+  background-size: contain;
+  background-clip: text;
+}
