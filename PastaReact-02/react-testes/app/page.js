@@ -1,6 +1,7 @@
 import { Profile, Profile2, Pi } from "../components/profiles";
 // import { Profile2} from "../components/profiles";
 
+
 export default function Illaoi(){
   return(
     <>
