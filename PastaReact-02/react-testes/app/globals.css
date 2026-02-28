@@ -1,8 +1,19 @@
-.Barbie{
+.Barbie2{
     width: 150px;
     height: 100px;
     background-color: transparent;
 }
-Illaoi{
-    background-color:rgb(255, 234, 118) ;
+.Ben-10{
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+}
+body{
+    background-color: beige;
+    color: blueviolet;
+    text-align: center;
+}
+.Avatar{
+    border-radius: 30%;
+
 }

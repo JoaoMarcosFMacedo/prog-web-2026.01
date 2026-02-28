@@ -1,23 +1,29 @@
-import { Profile, Profile2, Pi } from "../components/profiles";
+import { Profile, Profile2 } from "../components/Profiles";
+import { Avatar } from "../components/Avatar";
 // import { Profile2} from "../components/profiles";
 
-
-export default function Illaoi(){
+export default function Home(){
   return(
     <>
       <selection>
-        Nome { 50 }
-        <h1> A logo marca da Barbie </h1>
-        <li>
-          <h2>Barbie</h2>
+        <article>
+          <h1> Meu primeiro componente </h1>
+          <ol>
+            <li> Linha um </li>
+            <li> Linha dois </li>
+        <h1> A logo da Barbie, do Ben 10 e o Ednaldo pereira. </h1>
           <Profile2/>
-        </li>
-        <li>
-          <h2>Ben 10</h2>
           <Profile/>
+          <Avatar/>
+          <Avatar/>
+          <Avatar/>
+          <br/>
           Exemplo da expressão '{ 5 * 2 }' 
-        </li>
+          </ol>
+        </article>
+        Nome { 50/2 } 
       </selection>
     </>
   )
 }
+
