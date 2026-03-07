@@ -7,19 +7,19 @@ export default function PAGE1(){
     <>
       <selection>
         <article>
-
           <div className="cabecalho">
             <Home/>
           </div>          
           <h1> A logo da Barbie, do Cartoon Network e o Ednaldo pereira. </h1>
           <Profile2/>
+          <br/>
           <Profile/>
-          <Avatar/>
-          <Avatar/>
+          <br/>
           <Avatar/>
           <br/>
           Exemplo da expressão '{ 5 * 2 }' 
           <h1>Sally Ride's Packing List</h1>
+          
           <Item 
               isPacked={true} 
             name="Space suit" 
