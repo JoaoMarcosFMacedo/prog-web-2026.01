@@ -1,17 +1,17 @@
-import { Profile, Profile2 } from "../components/Profiles";
+import { Profile, Profile2} from "../components/Profiles";
 import { Avatar } from "../components/Avatar";
-// import { Profile2} from "../components/profiles";
+import { Home } from "../components/Home";
 
-export default function Home(){
+export default function PAGE1(){
   return(
     <>
       <selection>
         <article>
-          <h1> Meu primeiro componente </h1>
-          <ol>
-            <li> Linha um </li>
-            <li> Linha dois </li>
-        <h1> A logo da Barbie, do Ben 10 e o Ednaldo pereira. </h1>
+
+          <div className="cabecalho">
+            <Home/>
+          </div>          
+          <h1> A logo da Barbie, do Cartoon Network e o Ednaldo pereira. </h1>
           <Profile2/>
           <Profile/>
           <Avatar/>
@@ -19,11 +19,28 @@ export default function Home(){
           <Avatar/>
           <br/>
           Exemplo da expressão '{ 5 * 2 }' 
-          </ol>
+          <h1>Sally Ride's Packing List</h1>
+          <Item 
+              isPacked={true} 
+            name="Space suit" 
+          />
+          <Item 
+          isPacked={true} 
+          name="Helmet with a golden leaf" 
+         />
+          <Item 
+            isPacked={false} 
+            name="Photo of Tam" 
+          />
         </article>
         Nome { 50/2 } 
       </selection>
     </>
   )
 }
+function Item({name,isPacked }){
+  return<li className="item"> {isPacked ? name + ' - Verdade ': name} </li>
+}
+  
+
 

@@ -2,6 +2,7 @@
     width: 150px;
     height: 100px;
     background-color: transparent;
+    position: center;
 }
 .Ben-10{
     width: 150px;
@@ -9,11 +10,13 @@
     background-color: transparent;
 }
 body{
-    background-color: beige;
-    color: blueviolet;
-    text-align: center;
+    background-color: rgb(193, 245, 251);
+    color: rgb(38, 24, 52);
 }
-.Avatar{
-    border-radius: 30%;
-
+.item{
+    color: brown;
+}
+.cabecalho{
+    color: rgb(35, 15, 66);
+    text-align: center;
 }
