@@ -3,12 +3,13 @@ import { Button } from "../Components/Button";
 export default function Home() {
   return (
     <>
+
       <h1> Numero gerado:  <GeradorNumero/> </h1>
       <Button/>
+      <GeradorNumero/>
 
-      <div ClassName="D1">
-        
-      </div>
+
+     
     </>
   );
 }
